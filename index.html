@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jordan Rivera | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="brand">JR<span class="brand-dot">·</span>DEV</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="sheet hero">
+    <div class="sheet-frame">
+      <p class="eyebrow">SHEET 01 / OVERVIEW</p>
+      <h1>Jordan Rivera</h1>
+      <p class="role">III B.Tech, Computer Science &amp; Engineering — ANITS</p>
+      <p class="tagline">I build things at the joint of <mark>logic</mark> and <mark>interface</mark> — from database schemas to the pixels people actually touch.</p>
+      <a class="btn btn-primary" href="#contact">Get in touch</a>
+    </div>
+    <div class="blueprint-figure" aria-hidden="true">
+      <svg viewBox="0 0 200 200" width="100%" height="100%">
+        <circle cx="100" cy="100" r="70" class="fig-circle"/>
+        <line x1="100" y1="10" x2="100" y2="190" class="fig-line"/>
+        <line x1="10" y1="100" x2="190" y2="100" class="fig-line"/>
+        <circle cx="100" cy="100" r="4" class="fig-dot"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="sheet">
+    <div class="sheet-frame">
+      <p class="eyebrow">SHEET 02 / ABOUT</p>
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a Computer Science undergraduate who likes taking a problem apart until it's just <strong>inputs, rules, and outputs</strong>. Most of my time goes into web development, data structures, and finding the smallest fix that solves the biggest headache.</p>
+          <p>Outside of coursework, I contribute to a couple of open-source repos, mentor first-year students in a coding club, and spend an unreasonable amount of time <em>tuning my terminal setup</em>.</p>
+          <p>I'm currently looking for internship opportunities where I can work on <mark>real products</mark> used by real people — not just graded assignments.</p>
+        </div>
+        <div class="about-stat-card">
+          <p class="stat-num">7.9</p>
+          <p class="stat-label">CGPA / 10</p>
+          <hr>
+          <p class="stat-num">12+</p>
+          <p class="stat-label">Projects shipped</p>
+          <hr>
+          <p class="stat-num">3</p>
+          <p class="stat-label">Hackathons</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="sheet">
+    <div class="sheet-frame">
+      <p class="eyebrow">SHEET 03 / SKILLS</p>
+      <h2>My Skills</h2>
+
+      <article class="skill-group">
+        <h3>Technical</h3>
+        <div class="badge-row">
+          <span class="badge">HTML5</span>
+          <span class="badge">CSS3</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Python</span>
+          <span class="badge">Java</span>
+          <span class="badge">SQL</span>
+          <span class="badge">Git &amp; GitHub</span>
+        </div>
+        <div class="progress-list">
+          <div class="progress-item">
+            <div class="progress-label"><span>Python</span><span>90%</span></div>
+            <div class="progress-track"><div class="progress-fill" style="width:90%"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label"><span>JavaScript</span><span>78%</span></div>
+            <div class="progress-track"><div class="progress-fill" style="width:78%"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label"><span>SQL / Databases</span><span>70%</span></div>
+            <div class="progress-track"><div class="progress-fill" style="width:70%"></div></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="skill-group">
+        <h3>Soft Skills</h3>
+        <div class="badge-row">
+          <span class="badge badge-alt">Communication</span>
+          <span class="badge badge-alt">Teamwork</span>
+          <span class="badge badge-alt">Problem Solving</span>
+          <span class="badge badge-alt">Time Management</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="sheet">
+    <div class="sheet-frame">
+      <p class="eyebrow">SHEET 04 / PROJECTS</p>
+      <h2>Projects</h2>
+      <div class="card-grid">
+
+        <div class="card">
+          <h3>Campus Connect</h3>
+          <p>A web app that lets students find and join clubs, RSVP to events, and get reminders — built with HTML, CSS, and vanilla JS.</p>
+          <a class="btn btn-outline" href="#">View Project</a>
+        </div>
+
+        <div class="card">
+          <h3>Expense Tracker CLI</h3>
+          <p>A command-line tool in Python for logging expenses, tagging categories, and generating a simple monthly spend report.</p>
+          <a class="btn btn-outline" href="#">View Project</a>
+        </div>
+
+        <div class="card">
+          <h3>Library Management System</h3>
+          <p>A Java + SQL desktop app for issuing, returning, and tracking books, built as a semester database project.</p>
+          <a class="btn btn-outline" href="#">View Project</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="sheet">
+    <div class="sheet-frame">
+      <p class="eyebrow">SHEET 05 / CONTACT</p>
+      <h2>Contact Me</h2>
+      <p class="contact-intro">Have a project, internship, or just want to talk shop? Drop a line below.</p>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="form-row">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about what you have in mind..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="sheet-frame footer-inner">
+    <p>&copy; 2026 Jordan Rivera. All rights reserved.</p>
+    <address>
+      <a href="mailto:jordan.rivera@example.com">jordan.rivera@example.com</a>
+    </address>
+    <div class="social-links">
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
