@@ -1,21 +1,20 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jordan Rivera | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YASWANTH KUMAR | Portfolio</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="styles.css">
+  <!-- Our own stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
+  <!-- ============ NAVIGATION BAR ============ -->
   <nav>
-    <div class="brand">JR<span class="brand-dot">·</span>DEV</div>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -24,175 +23,118 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-</header>
 
-<main>
-
-  <!-- HERO -->
-  <section id="home" class="sheet hero">
-    <div class="sheet-frame">
-      <p class="eyebrow">SHEET 01 / OVERVIEW</p>
-      <h1>Jordan Rivera</h1>
-      <p class="role">III B.Tech, Computer Science &amp; Engineering — ANITS</p>
-      <p class="tagline">I build things at the joint of <mark>logic</mark> and <mark>interface</mark> — from database schemas to the pixels people actually touch.</p>
-      <a class="btn btn-primary" href="#contact">Get in touch</a>
-    </div>
-    <div class="blueprint-figure" aria-hidden="true">
-      <svg viewBox="0 0 200 200" width="100%" height="100%">
-        <circle cx="100" cy="100" r="70" class="fig-circle"/>
-        <line x1="100" y1="10" x2="100" y2="190" class="fig-line"/>
-        <line x1="10" y1="100" x2="190" y2="100" class="fig-line"/>
-        <circle cx="100" cy="100" r="4" class="fig-dot"/>
-      </svg>
-    </div>
+  <!-- ============ HERO / BANNER SECTION ============ -->
+  <section id="home" class="hero">
+    <h1>CH YASWANTH KUMAR</h1>
+    <p>IT B.Tech, </p>
+    <p> ANIL NEERUKONDA OF Technology AND SCIENCES</p>
+    <p class="tagline">I like turning ideas into working web pages and small apps.</p>
+     
+    <a href="#contact" class="btn">Get In Touch</a>
   </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="sheet">
-    <div class="sheet-frame">
-      <p class="eyebrow">SHEET 02 / ABOUT</p>
-      <h2>About Me</h2>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>I'm a Computer Science undergraduate who likes taking a problem apart until it's just <strong>inputs, rules, and outputs</strong>. Most of my time goes into web development, data structures, and finding the smallest fix that solves the biggest headache.</p>
-          <p>Outside of coursework, I contribute to a couple of open-source repos, mentor first-year students in a coding club, and spend an unreasonable amount of time <em>tuning my terminal setup</em>.</p>
-          <p>I'm currently looking for internship opportunities where I can work on <mark>real products</mark> used by real people — not just graded assignments.</p>
-        </div>
-        <div class="about-stat-card">
-          <p class="stat-num">7.9</p>
-          <p class="stat-label">CGPA / 10</p>
-          <hr>
-          <p class="stat-num">12+</p>
-          <p class="stat-label">Projects shipped</p>
-          <hr>
-          <p class="stat-num">3</p>
-          <p class="stat-label">Hackathons</p>
-        </div>
+  <!-- ============ ABOUT SECTION ============ -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+  
+  <p>Hi! I am an <strong>Information Technology student at ANITS</strong> from Visakhapatnam, a vibrant coastal city best known for its scenic beaches, bustling port, and for being home to <strong>ANITS</strong>. That same drive for technical excellence and coastal energy is something I try to bring into my own work.</p>
+  
+  <p>I enjoy building simple, clean websites and solving problems step by step. I am always <em>learning something new</em>, whether it's a fresh programming language, a modern web technology, or a smart design trick.</p>
+  
+  <p>When I am not coding, you will usually find me near the <mark>Rishikonda Beach</mark>, going for a walk, enjoying the ocean breeze, and thinking through whatever project I am currently working on.</p>
+</section>
+
+  <!-- ============ SKILLS SECTION ============ -->
+  <section id="skills" class="section">
+    <h2>My Skills</h2>
+
+    <article class="skill-group">
+      <h3>Technical Skills</h3>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+
+      <p>Python</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+
+      <p>JavaScript</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+    </article>
+
+    <article class="skill-group">
+      <h3>Soft Skills</h3>
+      <ul class="skills-list soft">
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Time Management</li>
+        <li>Problem Solving</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- ============ PROJECTS SECTION ============ -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="card-grid">
+
+      <div class="card">
+        <h3>Canal City Guide</h3>
+        <p>A simple HTML/CSS website listing places to visit and eat around Roorkee.</p>
+        <a href="#" class="btn small">View Project</a>
       </div>
-    </div>
-  </section>
 
-  <!-- SKILLS -->
-  <section id="skills" class="sheet">
-    <div class="sheet-frame">
-      <p class="eyebrow">SHEET 03 / SKILLS</p>
-      <h2>My Skills</h2>
-
-      <article class="skill-group">
-        <h3>Technical</h3>
-        <div class="badge-row">
-          <span class="badge">HTML5</span>
-          <span class="badge">CSS3</span>
-          <span class="badge">JavaScript</span>
-          <span class="badge">Python</span>
-          <span class="badge">Java</span>
-          <span class="badge">SQL</span>
-          <span class="badge">Git &amp; GitHub</span>
-        </div>
-        <div class="progress-list">
-          <div class="progress-item">
-            <div class="progress-label"><span>Python</span><span>90%</span></div>
-            <div class="progress-track"><div class="progress-fill" style="width:90%"></div></div>
-          </div>
-          <div class="progress-item">
-            <div class="progress-label"><span>JavaScript</span><span>78%</span></div>
-            <div class="progress-track"><div class="progress-fill" style="width:78%"></div></div>
-          </div>
-          <div class="progress-item">
-            <div class="progress-label"><span>SQL / Databases</span><span>70%</span></div>
-            <div class="progress-track"><div class="progress-fill" style="width:70%"></div></div>
-          </div>
-        </div>
-      </article>
-
-      <article class="skill-group">
-        <h3>Soft Skills</h3>
-        <div class="badge-row">
-          <span class="badge badge-alt">Communication</span>
-          <span class="badge badge-alt">Teamwork</span>
-          <span class="badge badge-alt">Problem Solving</span>
-          <span class="badge badge-alt">Time Management</span>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="sheet">
-    <div class="sheet-frame">
-      <p class="eyebrow">SHEET 04 / PROJECTS</p>
-      <h2>Projects</h2>
-      <div class="card-grid">
-
-        <div class="card">
-          <h3>Campus Connect</h3>
-          <p>A web app that lets students find and join clubs, RSVP to events, and get reminders — built with HTML, CSS, and vanilla JS.</p>
-          <a class="btn btn-outline" href="#">View Project</a>
-        </div>
-
-        <div class="card">
-          <h3>Expense Tracker CLI</h3>
-          <p>A command-line tool in Python for logging expenses, tagging categories, and generating a simple monthly spend report.</p>
-          <a class="btn btn-outline" href="#">View Project</a>
-        </div>
-
-        <div class="card">
-          <h3>Library Management System</h3>
-          <p>A Java + SQL desktop app for issuing, returning, and tracking books, built as a semester database project.</p>
-          <a class="btn btn-outline" href="#">View Project</a>
-        </div>
-
+      <div class="card">
+        <h3>Student Result Calculator</h3>
+        <p>A Python program that takes marks as input and calculates grade and percentage.</p>
+        <a href="#" class="btn small">View Project</a>
       </div>
+
+      <div class="card">
+        <h3>Library Database</h3>
+        <p>A basic SQL database project to issue and return books in a college library.</p>
+        <a href="#" class="btn small">View Project</a>
+      </div>
+
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="sheet">
-    <div class="sheet-frame">
-      <p class="eyebrow">SHEET 05 / CONTACT</p>
-      <h2>Contact Me</h2>
-      <p class="contact-intro">Have a project, internship, or just want to talk shop? Drop a line below.</p>
+  <!-- ============ CONTACT FORM SECTION ============ -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-      <form class="contact-form" action="#" method="post">
-        <div class="form-row">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your full name" required>
-        </div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
 
-        <div class="form-row">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="you@example.com" required>
-        </div>
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
 
-        <div class="form-row">
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
-        </div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
 
-        <div class="form-row">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about what you have in mind..." required></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Send Message</button>
-      </form>
-    </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
   </section>
 
-</main>
-
-<footer>
-  <div class="sheet-frame footer-inner">
-    <p>&copy; 2026 Jordan Rivera. All rights reserved.</p>
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <p>&copy; 2026 Aditya Sharma. All rights reserved.</p>
     <address>
-      <a href="mailto:jordan.rivera@example.com">jordan.rivera@example.com</a>
+      <a href="mailto:aditya.sharma@example.com">aditya.sharma@example.com</a>
     </address>
-    <div class="social-links">
-      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+    <div class="socials">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
     </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
 </html>
